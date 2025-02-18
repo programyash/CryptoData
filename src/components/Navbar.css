@@ -1,0 +1,43 @@
+.navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.logo img{
+    width: 180px;
+    height: 35px;
+}
+
+.nav-right select{
+    padding: 6px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.nav-right select option{
+    background-color:#0b004e ;
+}
+.nav-right button{
+    height: 40px;
+    width: 120px;
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.nav-right button img{
+    height: 12px;
+}
